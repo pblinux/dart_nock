@@ -115,12 +115,14 @@ class MockClient implements HttpClient {
   @override
   void addCredentials(
       Uri url, String realm, HttpClientCredentials credentials) {
+    // ignore: todo
     // TODO: implement addCredentials
   }
 
   @override
   void addProxyCredentials(
       String host, int port, String realm, HttpClientCredentials credentials) {
+    // ignore: todo
     // TODO: implement addProxyCredentials
   }
 
